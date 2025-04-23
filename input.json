@@ -1,0 +1,46 @@
+{
+  "confidence_score": {
+    "source": {
+      "type": "primary",
+      "year": 2024,
+      "authority": "academic"
+    }
+  },
+  "decision_rule": {
+    "query": {
+      "keywords": ["tariff", "trade"],
+      "domain": "economics",
+      "urgency": "normal"
+    }
+  },
+  "consensus_eval": {
+    "claim": "Tariffs increase consumer prices",
+    "sources": [
+      {
+        "type": "academic",
+        "year": 2024,
+        "authority": "academic",
+        "content": "Tariffs increase consumer prices."
+      },
+      {
+        "type": "news",
+        "year": 2023,
+        "authority": "news",
+        "content": "Tariffs do not increase consumer prices."
+      }
+    ]
+  },
+  "hybrid_reasoning": {
+    "problem": "Do tariffs increase prices?",
+    "data": [
+      {
+        "domain": "economics",
+        "observation": "Tariffs increase consumer prices."
+      },
+      {
+        "domain": "economics",
+        "observation": "Tariffs increase production costs."
+      }
+    ]
+  }
+}
