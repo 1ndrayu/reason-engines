@@ -12,7 +12,7 @@ Python 3.6+
 Standard json module (no external dependencies)
 
 ## Installation
-Clone the repository:git clone https://github.com/your-username/reason-engines.git
+Clone the repository:git clone https://github.com/1ndrayu/reason-engines.git
 cd reason-engines
 
 ## Usage
