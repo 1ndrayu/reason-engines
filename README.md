@@ -1,50 +1,32 @@
-Reason-Engines: A Critical Reasoning Framework
+# Reason-Engines: A Critical Reasoning Framework
 Reason-Engines is a Python-based framework for systematic problem-solving, driven by reason, skepticism, and first-principles thinking. It evaluates data reliability, adjusts analysis depth to problem complexity, checks consensus, and blends deductive and inductive reasoning. Perfect for automated research, fact-checking, or decision support in domains like economics or science.
-Features
 
+## Features
 Confidence Scoring: Rates source reliability (e.g., academic vs. blog) using weighted metrics.
 Decision-Rule Engine: Selects analysis depth (light, moderate, deep) based on query complexity.
 Consensus Evaluation: Verifies claims against high-confidence sources for support or disputes.
 Hybrid Reasoning: Merges first-principles deduction with data-driven induction for robust conclusions.
 
-Requirements
-
+## Requirements
 Python 3.6+
 Standard json module (no external dependencies)
 
-Installation
-
+## Installation
 Clone the repository:git clone https://github.com/your-username/reason-engines.git
 cd reason-engines
 
-
-
-Usage
-
+## Usage
 Create an input.json file with component data (see input.json.example for structure).
 Run the framework:python framework.py
-
-
 Review outputs for confidence scores, analysis mode, consensus status, and reasoning conclusions.
 
-Input File Structure
-The input.json file must include:
-{
-  "confidence_score": {"source": {"type": "primary", "year": 2024, "authority": "academic"}},
-  "decision_rule": {"query": {"keywords": ["tariff"], "domain": "economics", "urgency": "normal"}},
-  "consensus_eval": {"claim": "Tariffs increase prices", "sources": [{"type": "academic", ...}]},
-  "hybrid_reasoning": {"problem": "Do tariffs increase prices?", "data": [{"domain": "economics", ...}]}
-}
+### Input File Structure
+The input.json file included must be adhered to get error-free outputs.
 
-Example Output
+### Example Output
 Confidence Score: 0.88
 Analysis Mode: deep
 Consensus Status: no_consensus
 Conclusion: Supply and demand govern prices. Data suggests do tariffs increase prices? likely increases.
 
-Contributing
-We welcome contributions! Submit issues or pull requests for bugs, features, or documentation.
-License
-MIT License. See LICENSE for details.
-Contact
-For inquiries, open an issue or email [your-email@example.com].
+---
